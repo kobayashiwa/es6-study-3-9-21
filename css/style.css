@@ -609,7 +609,11 @@ iframe{
 	filter: grayscale(1);
   }
 
+/** footer **/
 
+footer {
+	background: #4A4A4A;
+}
 
 
 
