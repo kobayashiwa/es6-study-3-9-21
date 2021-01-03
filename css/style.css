@@ -614,10 +614,15 @@ iframe{
 footer {
 	background: #4A4A4A;
 	padding: 48px;
+	position: relative;
 }
 footer .copyright{
 	color: #fff;
 	font-size: 14px;
+}
+footer .to-top{
+	position: absolute;
+	right: 0;
 }
 
 
