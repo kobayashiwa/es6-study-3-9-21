@@ -623,6 +623,7 @@ footer .copyright{
 #to-top{
 	position: absolute;
 	right: 0;
+	background: url(../img/to-top.svg) no-repeat;
 }
 
 
