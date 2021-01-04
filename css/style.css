@@ -613,20 +613,27 @@ iframe{
 
 footer {
 	background: #4A4A4A;
-	padding: 48px;
-	position: relative;
+	width: 100%;
+	justify-content:space-between;
 }
 footer .copyright{
 	color: #fff;
 	font-size: 14px;
+	padding: 48px;
 }
 #to-top{
-	position: absolute;
-	right: 0;
-	background: url(../img/to-top.svg) no-repeat;
 	background-color: #3C3C3C;
 	width: 121px;
 	height: 121px;
+	position: relative;
+}
+#to-top a {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/to-top.svg) no-repeat;
 }
 
 
