@@ -624,6 +624,9 @@ footer .copyright{
 	position: absolute;
 	right: 0;
 	background: url(../img/to-top.svg) no-repeat;
+	background-color: #3C3C3C;
+	width: 121px;
+	height: 121px;
 }
 
 
