@@ -246,6 +246,25 @@
                 }           
         });
     </script>
+
+    <script>
+        const number1 = 80;
+        const number2 = 96;
+        const number3 = 55;
+
+        const getMax = (a, b, c) => {
+            let max = a;
+            if (b > max) {
+                max = b;
+            }
+            if (c > max) {
+                max = c;
+            }
+            return max;
+        };
+        const max = getMax(number1, number2, number3);
+        console.log (`最大値は${max}です`);
+    </script>
 </html>
 
 
