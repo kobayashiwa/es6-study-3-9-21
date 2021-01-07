@@ -256,6 +256,7 @@
         const number6 = 28;
         const number7 = 103;
         const number8 = 26;
+        const number9 = 106;
 
         const getMax = (a, b, c) => {
             let max = a;
@@ -368,6 +369,35 @@
             return min3;
         };
 
+        const getMax4 = (a, b, c, d, e, f, g, h, i) => {
+            let max4 = a;
+            if (b > max4) {
+                max4 = b;
+            }
+            if (c > max4) {
+                max4 = c;
+            }
+            if (d > max4) {
+                max4 = d;
+            }
+            if (e > max4) {
+                max4 = e;
+            }
+            if (f > max4) {
+                max4 = f;
+            }
+            if (g > max4) {
+                max4 = g;
+            }
+            if (h > max4) {
+                max4 = h;
+            }
+            if (i > max4) {
+                max4 = i;
+            }
+            return max4;
+        };
+
         const max = getMax(number1, number2, number3);
         console.log (`最大値は${max}です`);
 
@@ -385,6 +415,9 @@
 
         const min3 = getMin3(number1, number2, number3, number4, number5, number6, number7, number8);
         console.log (`最小値は${min3}です`);
+
+        const max4 = getMax4(number1, number2, number3, number4, number5, number6, number7, number8, number9);
+        console.log (`最大値は${max4}です`);
     </script>
 </html>
 
