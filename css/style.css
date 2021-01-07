@@ -609,6 +609,29 @@ iframe{
 	filter: grayscale(1);
   }
 
+/** footer **/
+
+footer {
+	background: #4A4A4A;
+	width: 100%;
+	justify-content:space-between;
+}
+footer .copyright{
+	color: #fff;
+	font-size: 14px;
+	padding: 48px;
+}
+#to-top{
+	width: 121px;
+	height: 121px;
+}
+#to-top a {
+	display: inline-block;
+	width: 121px;
+	height: 121px;
+	background: url(../img/to-top.svg) 50% 50% no-repeat;
+	background-color: #3C3C3C;
+}
 
 
 
